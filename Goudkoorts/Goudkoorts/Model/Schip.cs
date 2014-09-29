@@ -7,7 +7,7 @@ namespace Goudkoorts
 {
     public class Schip
     {
-        private int ladingen;
+        public int ladingen;
 
         public Schip()
         {

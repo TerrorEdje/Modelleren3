@@ -14,5 +14,15 @@ namespace Goudkoorts
         {
             Schip = new Schip();
         }
+
+        public bool load()
+        {
+            if (Schip != null)
+            {
+                Schip.AddLoad();
+                return true;
+            }
+            return false;
+        }
     }
 }

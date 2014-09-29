@@ -14,7 +14,7 @@ namespace Goudkoorts
 
         public void CreateCar() 
         {
-            this.Kar = new Kar(this);
+            this.Kar = new Kar();
         }
     }
 }

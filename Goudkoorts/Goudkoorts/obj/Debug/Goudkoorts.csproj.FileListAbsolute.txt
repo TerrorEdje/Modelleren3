@@ -27,3 +27,11 @@ C:\Users\Edwin\Dropbox\Prog5c#enModelleren\Goudkoorts\Goudkoorts\obj\Debug\Goudk
 C:\Users\mickey\Dropbox\Prog5c#\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.exe.config
 C:\Users\mickey\Dropbox\Prog5c#\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.exe
 C:\Users\mickey\Dropbox\Prog5c#\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.pdb
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.pdb
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.pdb
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.csprojResolveAssemblyReference.cache
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.Properties.Resources.resources
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.csproj.GenerateResource.Cache
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.dll.config
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.dll
+C:\Projects\Modelleren 3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.dll

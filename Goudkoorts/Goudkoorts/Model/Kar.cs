@@ -7,37 +7,18 @@ namespace Goudkoorts
 {
     public class Kar
     {
-        public Baan baan;
         public bool lading;
 
-        public Kar(Baan input) 
+        public Kar() 
         {
-            baan = input;
             lading = true;
         }
 
         public void Drop()
         {
-            throw new System.NotImplementedException();
+            lading = false;
         }
 
-        public void Move()
-        {
-            if (baan.next == null)
-            {
-                baan.Kar = null;
-            }
-            else
-            {
-                baan.next.Kar = this;
-                baan.Kar = null;
-                baan = baan.next;
-                if (baan.Haven != null)
-                {
-                    baan.Haven.Schip.AddLoad();
-                    lading = false;
-                }
-            }
-        }
+       
     }
 }

@@ -6,22 +6,24 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts.Controller
 {
-    class Controller
+    public class Controller
     {
-        MainWindow window;
         public Loods LoodsA{set; get;} 
         public Loods LoodsB{set; get;} 
         public Loods LoodsC{set; get;}
 
-        public Controller(MainWindow inputWindow) 
+        public Controller() 
         {
-            window = inputWindow;
-            simpleVersion();
         }
 
         public void Run() 
         {
             
+        }
+
+        public string show()
+        {
+            return LoodsA.getInfoAll("");
         }
 
         public void simpleVersion()
@@ -32,11 +34,33 @@ namespace Goudkoorts.Controller
             LoodsA.addBaan(newBaan);
             newBaan.addHaven(new Haven());
             LoodsA.addBaan(new Baan());
-            window.add(LoodsA.getInfoAll(""));
+            WisselSplit wisselsplit = new WisselSplit();
+            wisselsplit.Baan = new Baan();
+            wisselsplit.Stance = 1;
+            LoodsA.addBaan(wisselsplit);
+            LoodsA.addBaan(new Baan());
+            Wissel wissel = new Wissel();
+
+            Baan wissel0 = new Baan();
+            Baan wissel1 = new Baan();
+            LoodsA.addBaan(wissel0);
+            wisselsplit.Baan.addBaan(wissel1);
+            wissel.previous0 = wissel0;
+            wissel.previous1 = wissel1;
+            wissel0.next = wissel;
+            wissel1.next = wissel;
+            wissel.Stance = 1;
+            wissel.addBaan(new Baan());
+            
             LoodsA.CreateCar();
-            window.add(LoodsA.getInfoAll(""));
-            LoodsA.MoveCar(new List<Kar>());
-            window.add(LoodsA.getInfoAll(""));
+
+            LoodsA.MoveCar();
+            LoodsA.MoveCar();
+            LoodsA.MoveCar();
+            LoodsA.MoveCar();
+            LoodsA.MoveCar();
+            LoodsA.MoveCar();
+            LoodsA.MoveCar();
 
         }
 

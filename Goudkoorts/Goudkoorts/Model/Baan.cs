@@ -8,14 +8,14 @@ namespace Goudkoorts
     public class Baan
     {
         public Haven Haven { set; get; }
-        public Kar Kar{set; get;}
+        public Kar Kar { set; get; }
         public Baan next;
 
         public Baan()
         {
         }
 
-        public void addBaan(Baan nextBaan) 
+        public void addBaan(Baan nextBaan)
         {
             if (next == null)
             {
@@ -42,21 +42,21 @@ namespace Goudkoorts
                 temp += "";
             else
                 //temp += "wel kar";
-                temp += "K";
+                temp += "+KAR-Lading:" + Kar.lading;
             if (Haven == null)
                 //temp += "geen haven";
                 temp += "";
             else
                 //temp += "wel haven";
-                temp += "H";
+                temp += "+HAVEN-Lading:" + Haven.Schip.ladingen;
             temp += "|";
             return temp;
         }
 
-        public string getInfoAll(String tekst)
+        public virtual string getInfoAll(String tekst)
         {
-            tekst += ""+getInfo();
-            if (next != null) 
+            tekst += "" + getInfo();
+            if (next != null)
             {
                 tekst = next.getInfoAll(tekst);
             }
@@ -64,25 +64,32 @@ namespace Goudkoorts
             return tekst;
         }
 
-        public void MoveCar(List<Kar> temp)
+        public virtual void MoveCar()
         {
-            if (Kar != null) 
-            {
-                temp.Add(Kar);                
-            }
             if (next != null)
             {
-                next.MoveCar(temp);
-            }
-            else
-            {
-                foreach (Kar k in temp)
+                next.MoveCar();
+
+                if (Kar != null)
                 {
-                    k.Move();
+                    if (next.canMove(this))
+                    {
+                        next.Kar = Kar;
+                        this.Kar = null;
+                        if (next.Haven != null)
+                        {
+                            if (next.Haven.load())
+                            {
+                                next.Kar.Drop();
+                            }
+                        }
+                    }
                 }
             }
         }
-
-
+        public virtual bool canMove(Baan previous)
+        {
+            return true;
+        }
     }
 }

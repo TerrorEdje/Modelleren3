@@ -1,0 +1,8 @@
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\obj\Debug\GoudkoortsApp.csprojResolveAssemblyReference.cache
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\bin\Debug\Goudkoorts.dll
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\bin\Debug\Goudkoorts.pdb
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Projects\Modelleren 3\Goudkoorts\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

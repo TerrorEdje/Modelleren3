@@ -3,18 +3,15 @@
   <Class Name="Goudkoorts.Kar">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Model\Kar.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="baan" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="Goudkoorts.Loods">
     <Position X="0.5" Y="6.5" Width="1.5" />
     <InheritanceLine Type="Goudkoorts.Baan" FixedFromPoint="true">
       <Path>
-        <Point X="1.25" Y="5.065" />
+        <Point X="1.25" Y="5.257" />
         <Point X="1.25" Y="6.5" />
       </Path>
     </InheritanceLine>
@@ -33,7 +30,7 @@
   <Class Name="Goudkoorts.Baan">
     <Position X="0.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAEIAAAAAAAAEAAQAAAAAAAAAAQAQIAAAA=</HashCode>
+      <HashCode>AAAAAAAAAgAkIAAAAAAAAEAAQAAAAAAAAAAQAQIAAAA=</HashCode>
       <FileName>Model\Baan.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -45,7 +42,7 @@
   <Class Name="Goudkoorts.Haven">
     <Position X="4" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
       <FileName>Model\Haven.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -53,22 +50,36 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Goudkoorts.Wissel">
-    <Position X="4.25" Y="4.25" Width="1.5" />
+    <Position X="3.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Wissel.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAAAIEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Wissel.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Goudkoorts.WisselSplit">
-    <Position X="4.25" Y="6.25" Width="1.5" />
-    <AssociationLine Name="Baan" Type="Goudkoorts.Baan">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Goudkoorts.Baan" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="5.186" />
+        <Point X="2.344" Y="5.186" />
+        <Point X="2.344" Y="6.156" />
+        <Point X="4.188" Y="6.156" />
+        <Point X="4.188" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Baan" Type="Goudkoorts.Baan" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="6.426" />
+        <Point X="2" Y="6.426" />
+        <Point X="2" Y="5.257" />
+      </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.698" Y="0.26" />
+        <Position X="-0.619" Y="0.341" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
-      <FileName>WisselSplit.cs</FileName>
+      <HashCode>AAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAQAAAAACA=</HashCode>
+      <FileName>Model\WisselSplit.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Baan" />
