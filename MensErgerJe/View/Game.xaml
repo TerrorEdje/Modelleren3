@@ -1,0 +1,28 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MensErgerJe="clr-namespace:MensErgerJe" x:Class="MensErgerJe.View.Game"
+        Title="{Binding BoardTitel}" Height="756" Width="980" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize" Icon="/MensErgerJe;component/Image/icon.png">
+    <Grid>
+        <Grid x:Name="ExtraInfo" Width="260" HorizontalAlignment="left" Margin="0,0,0,0">
+            <Label Content="{Binding WelcomPlayerTurn}" HorizontalAlignment="Left" Margin="-36,120,0,0" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-42.331"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Button Content="Dobbelen" HorizontalAlignment="Left" Margin="10,400,0,0" VerticalAlignment="Top" Width="239" Height="53" Click="Button_Click_1" FontSize="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="{Binding DisableButton}"/>
+            <Grid x:Name="DiceField" Width="200" Height="200" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,25">
+                <Image Height="200" Width="200" Source="{Binding NumberImage}" />
+            </Grid>
+        </Grid>
+
+        <!--Dit is het speel veld zelf-->
+        <Grid x:Name="PlayField" Height="720" Width="720" Background="#FFF9BFCC" Margin="260,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <!--Einde speelveld-->
+    </Grid>
+</Window>

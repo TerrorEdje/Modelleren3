@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<spel>
+	<informatie>
+		<title>standard</title>
+		<aantal_mensen>4</aantal_mensen>
+		<rows>21</rows>
+		<columns>21</columns>
+	</informatie>
+	<map>
+		<row>
+      <short>W-r; ;W-r; ; ; ; ; ;F;-;F-F-b;-;F-S-b; ; ; ; ; ;W-b; ;W-b</short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>W-r; ;W-r; ; ; ; ; ;F; ;F-b; ;F; ; ; ; ; ;W-b; ;W-b</short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row> 
+      <short>; ; ; ; ; ; ; ;F; ;F-b; ;F; ; ; ; ; ; ; </short>
+    </row>
+		<row> 
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row> 
+      <short>; ; ; ; ; ; ; ;F; ;F-b; ;F; ; ; ; ; ; ; </short>
+    </row>
+		<row> 
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>F-S-r;-;F;-;F;-;F;-;F; ;F-b; ;F;-;F;-;F;-;F;-;F</short>
+    </row>
+		<row>
+      <short>|; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;|</short>
+    </row>
+		<row>
+      <short>F-F-r;/;F-r;/;F-r;/;F-r;/;F-r; ; ; ;F-g;/;F-g;/;F-g;/;F-g;/;F-F-g</short>
+    </row>
+		<row>
+      <short>|; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;|</short>
+    </row>
+		<row>
+      <short>F;-;F;-;F;-;F;-;F; ;F-e; ;F;-;F;-;F;-;F;-;F-S-g</short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;F; ;F-e; ;F; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;F; ;F-e; ;F; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>W-e; ;W-e; ; ; ; ; ;F; ;F-e; ;F; ; ; ; ; ;W-g; ;W-g</short>
+    </row>
+		<row>
+      <short>; ; ; ; ; ; ; ;|; ;\; ;|; ; ; ; ; ; ; </short>
+    </row>
+		<row>
+      <short>W-e; ;W-e; ; ; ; ; ;F-S-e;-;F-F-e;-;F; ; ; ; ; ;W-g; ;W-g</short>
+  </row>
+	</map>
+</spel>
